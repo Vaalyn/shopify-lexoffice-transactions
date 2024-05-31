@@ -1,0 +1,9 @@
+/vendor/
+
+/var/transactions/*
+/var/transactions/processed/*
+/var/transactions/new/*
+!/var/transactions/new
+!/var/transactions/new/.gitkeep
+!/var/transactions/processed
+!/var/transactions/processed/.gitkeep

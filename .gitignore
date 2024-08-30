@@ -1,5 +1,14 @@
 /vendor/
 
+/var/payouts/*
+/var/payouts/processed/*
+/var/payouts/new/*
+!/var/payouts/new
+!/var/payouts/new/.gitkeep
+!/var/payouts/processed
+!/var/payouts/processed/.gitkeep
+
+
 /var/transactions/*
 /var/transactions/processed/*
 /var/transactions/new/*

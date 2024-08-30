@@ -81,6 +81,10 @@ class ShopifyTransactionsProcessor
             $this->moveTransactionPdfToArchive($pdfFile);
         }
 
+        if (empty($lexofficeTransactionRecords)) {
+            return;
+        }
+
         $this->createCsvForLexofficeTransactions($lexofficeTransactionRecords);
     }
 
